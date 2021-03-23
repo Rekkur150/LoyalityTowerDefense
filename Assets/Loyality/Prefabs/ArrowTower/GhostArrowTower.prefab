@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &3103145834135228274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898586746465049116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2007200404512408167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898586746465049116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3612aee76768ff4b9356fb9ec477f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  UnqiueName: GhostArrowTower
+  SpawnOffset: {fileID: 8300441067770462780}
+  collider: {fileID: 3103145834135228274}
+  ColliderMask:
+    serializedVersion: 2
+    m_Bits: 13056
+  GroundMask:
+    serializedVersion: 2
+    m_Bits: 1
+--- !u!1001 &2307132603465284873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 51125835836789187, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 597117445689760813, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 815075886451981197, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Carve
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815075886451981197, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Extents.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 815075886451981197, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Extents.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116716572650966433, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116716572650966433, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194216025942608261, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426717268809628265, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: sceneId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426717268809628265, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_AssetId
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531388640647146192, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546497563659857654, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: syncInterval
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546497563659857654, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: clientAuthority
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2375908012968569761, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961721308696408770, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895639043163499052, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: sphereCollider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205709170446264085, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Name
+      value: GhostArrowTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205709170446264085, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205709170446264085, guid: e2d91f9de92cea64e96b9d0029e34366,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 456427626983267974, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 8991618125847217023, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 5113871971387707503, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 5895639043163499052, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 5913757402202018770, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 0}
+    - {fileID: 815075886451981197, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1262007899142449875, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+    - {fileID: 2375908012968569761, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e2d91f9de92cea64e96b9d0029e34366, type: 3}
+--- !u!1 &4898586746465049116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7205709170446264085, guid: e2d91f9de92cea64e96b9d0029e34366,
+    type: 3}
+  m_PrefabInstance: {fileID: 2307132603465284873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8300441067770462780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5995843397095587637, guid: e2d91f9de92cea64e96b9d0029e34366,
+    type: 3}
+  m_PrefabInstance: {fileID: 2307132603465284873}
+  m_PrefabAsset: {fileID: 0}
